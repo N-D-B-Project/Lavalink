@@ -13,9 +13,3 @@ services:
       - 2333
     ports:
       - "2333:2333"
-  redis:
-    build: .docker/Redis
-    container_name: redis
-    restart: always
-    ports:
-      - "6379:6379"
