@@ -1,4 +1,4 @@
-FROM ghcr.io/lavalink-devs/lavalink:4.0.4
+FROM ghcr.io/lavalink-devs/lavalink:4.0.5
 
 USER root
 
