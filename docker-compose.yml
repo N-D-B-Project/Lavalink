@@ -3,7 +3,7 @@ version: "3.8"
 services:
   lavalink:
     build: .
-    container_name: lavalink
+    container_name: ndlavalink
     restart: unless-stopped
     environment:
       - _JAVA_OPTIONS=-Xmx6G
@@ -13,3 +13,8 @@ services:
       - 2333
     ports:
       - "2333:2333"
+    networks:
+      - ndnetwork
+
+networks:
+  ndnetwork:
