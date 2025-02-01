@@ -1,5 +1,5 @@
 services:
-  lavalink:
+  ndlavalink:
     build: .
     container_name: ndlavalink
     restart: unless-stopped
